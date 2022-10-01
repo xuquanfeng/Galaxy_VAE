@@ -51,7 +51,7 @@ python make_datatxt.py
 python Galaxy_VAE_n.py
 ```
 模型结构如下:
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.jpg" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/VAE_NN.png" width="600">
 
 You can access it by clicking on 
 [Github-models](https://github.com/xuquanfeng/Galaxy_VAE/blob/master/VAE_model/models.py)
