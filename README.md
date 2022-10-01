@@ -1,7 +1,7 @@
 Galaxy_VAE
 =======
 
-English | [��������](README_zh.md)
+English | [简体中文](README_zh.md)
 
 The aim of this work is the unsupervised extraction of galaxy image morphological features, which is divided into two main parts.
 
