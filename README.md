@@ -60,15 +60,18 @@ You can access it by clicking on
 - `analysis/decals_1.py`: 星表中筛选合适阈值的星系图像。
 - `analysis/decals_2_1.py`: 筛选的星系和DECaLSE中的星系图像进行配准，保存索引。
 - `analysis/decals_2_2.py`: 根据上面的索引提出对应隐变量特征。
+- 
 - `analysis/decals_3.py`: 降维可视化对应类别的隐变量特征。
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/all.jpg" width="600">
+
 - `analysis/decals_4.py`: 筛选离群点。
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/lqd.jpg" width="600">
 ## Analysis of outliers
 
 - `outliers/visualization.ipynb`: The model effects are viewed by reconstructing different hidden variable dimensions.
-<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/all.jpg" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/xiang.jpg" width="600">
 
 - `outliers/outline.ipynb`: The same galaxy images obtained by different surveys are visualized by sorting the distances between the latent variables obtained by VAE.
-<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/xiang.jpg" width="600">
 
 The morphological identification of the same galaxy varies due to the effects of observing bands, telescopes and PSFs in different sky survey programs.
 - `like`
