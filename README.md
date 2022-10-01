@@ -63,6 +63,7 @@ You can access it by clicking on
 - `analysis/decals_3.py`: 降维可视化对应类别的隐变量特征。
 - `analysis/decals_4.py`: 筛选离群点。
 ## Analysis of outliers
+
 - `outliers/visualization.ipynb`: The model effects are viewed by reconstructing different hidden variable dimensions.
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/all.jpg" width="600">
 - `outliers/outline.ipynb`: The same galaxy images obtained by different surveys are visualized by sorting the distances between the latent variables obtained by VAE.
