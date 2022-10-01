@@ -51,7 +51,7 @@ Train the galaxy images in `train.txt` directly with the following command.
 python Galaxy_VAE_n.py
 ```
 The model structure is as follows:
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/VAE_NN.png" width="600">
 
 You can access it by clicking on 
 [Github-models](https://github.com/xuquanfeng/Galaxy_VAE/blob/master/VAE_model/models.py)
@@ -64,15 +64,15 @@ You can access it by clicking on
 - `analysis/decals_4.py`: 筛选离群点。
 ## Analysis of outliers
 - `outliers/visualization.ipynb`: The model effects are viewed by reconstructing different hidden variable dimensions.
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/all.png" width="600">
 - `outliers/outline.ipynb`: The same galaxy images obtained by different surveys are visualized by sorting the distances between the latent variables obtained by VAE.
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/xiang.png" width="600">
 
 The morphological identification of the same galaxy varies due to the effects of observing bands, telescopes and PSFs in different sky survey programs.
 - `like`
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_like.png" width="600">
 - `dislike`
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_dislike.png" width="600">
 
 Part II ``Domain Adaptation``
 ====================
