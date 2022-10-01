@@ -1,8 +1,10 @@
 Galaxy_VAE
 =======
-English | [简体中文](README_zh.md)
+
+English | [��������](README_zh.md)
 
 The aim of this work is the unsupervised extraction of galaxy image morphological features, which is divided into two main parts.
+
 - **Part I**
 
   Firstly, the latent variables are extracted from the high-dimensional galaxy images, and the latent variable dimensions are the only super parameters in the network structure when the model structure is determined.
@@ -38,7 +40,7 @@ Requirements
 Part I ``VAE``
 ========================
 # Datasets
-`DECaLS`: Based on the data in this article [(paper)](http://dx.doi.org/10.1093/mnras/stab2093), the shape size `3×256×256` was filtered, while the selection was made with a threshold value afterwards.
+`DECaLS`: Based on the data in this article [(paper)](http://dx.doi.org/10.1093/mnras/stab2093), the shape size `3?256?256` was filtered, while the selection was made with a threshold value afterwards.
 
 Generate the `train.txt` needed for training with the following command:
 ```
@@ -57,13 +59,13 @@ You can access it by clicking on
 [Github-models](https://github.com/xuquanfeng/Galaxy_VAE/blob/master/VAE_model/models.py)
 .
 ## Analysis of latent variables
-- `analysis/decals_1.py`: 星表中筛选合适阈值的星系图像。
-- `analysis/decals_2_1.py`: 筛选的星系和DECaLSE中的星系图像进行配准，保存索引。
-- `analysis/decals_2_2.py`: 根据上面的索引提出对应隐变量特征。
-- `analysis/decals_3.py`: 降维可视化对应类别的隐变量特征。
+- `analysis/decals_1.py`: The catalog filters images of galaxies with appropriate thresholds.
+- `analysis/decals_2_1.py`: The filtered galaxies are aligned with the galaxy images in DECaLSE and the index is saved.
+- `analysis/decals_2_2.py`: The corresponding latent variable features are proposed according to the above index.
+- `analysis/decals_3.py`: Reduced dimensional visualization of the latent variable features of the corresponding category.
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/all.jpg" width="600">
 
-- `analysis/decals_4.py`: 筛选离群点。
+- `analysis/decals_4.py`: Screening outlier points.
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/lqd.jpg" width="600">
 
 ## Analysis of outliers
