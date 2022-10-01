@@ -2,6 +2,7 @@ Galaxy_VAE
 =======
 
 这个工作的目的是将无监督的提取星系图像形态特征，主要分为两个部分。
+
 - **第一部分**
 
   首先从高维星系图像中提取隐变量，模型结构确定的情况下，隐变量维度是网络结构中唯一的超参。
@@ -60,19 +61,24 @@ You can access it by clicking on
 - `analysis/decals_2_1.py`: 筛选的星系和DECaLSE中的星系图像进行配准，保存索引。
 - `analysis/decals_2_2.py`: 根据上面的索引提出对应隐变量特征。
 - `analysis/decals_3.py`: 降维可视化对应类别的隐变量特征。
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/all.jpg" width="600">
+
 - `analysis/decals_4.py`: 筛选离群点。
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/lqd.jpg" width="600">
+
 ## 分析离群点
+
 - `outline/visualization.ipynb`: 通过重构不同隐变量维度，查看模型效果。
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/xiang.jpg" width="600">
+
 - `outline/outline.ipynb`: 同一个星系通过不同巡天得到的星系图像，通过VAE得到的隐变量之间的距离，排序可视化。
 
 由于不同巡天计划中观测波段、望远镜和PSF等因素影响，导致同一个星系的形态识别有差异：
 - `like`
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_like.jpg" width="800">
+
 - `dislike`
-<img src="http://cluster.shao.ac.cn/wiki/index.php?title=File:VAE_NN.png" width="600">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_dislike.jpg" width="800">
 
 第二部分 ``Domain Adaptation``
 ====================
