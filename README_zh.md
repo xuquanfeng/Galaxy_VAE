@@ -19,7 +19,7 @@ Galaxy_VAE
   目的：DECaLS训练出来的模型用于提取其他巡天的形态特征，域适应训练对其他巡天进行降噪，使得第一部分训练的网络可以更好应用到其他巡天来提取形态特征。
 
 
-Requirements
+环境配置要求
 ============
 -  numpy
 -  pandas
@@ -74,13 +74,13 @@ You can access it by clicking on
 - `outline/outline.ipynb`: 同一个星系通过不同巡天得到的星系图像，通过VAE得到的隐变量之间的距离，排序可视化。
 
 由于不同巡天计划中观测波段、望远镜和PSF等因素影响，导致同一个星系的形态识别有差异：
-- `like`
+- `相似`
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_like.jpg" width="800">
 
-- `dislike`
+- `不相似`
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_dislike.jpg" width="800">
 
-第二部分 ``Domain Adaptation``
+第二部分 ``域适应``
 ====================
 
 旨在克服上述在不同巡天计划中噪声影响的问题。
