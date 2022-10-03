@@ -53,7 +53,7 @@ python Galaxy_VAE_n.py
 模型结构如下:
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/VAE_NN.png" width="600">
 
-You can access it by clicking on 
+您可以通过单击访问它
 [Github-models](https://github.com/xuquanfeng/Galaxy_VAE/blob/master/VAE_model/models.py)
 .
 ## 分析隐变量
