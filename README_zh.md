@@ -38,7 +38,7 @@ Galaxy_VAE
 第一部分 ``VAE``
 ========================
 # 数据
-`DECaLS`: 根据此文章[paper](http://dx.doi.org/10.1093/mnras/stab2093)中的数据，对形状大小`3×256×256`筛选，而后用阈值进行选择。
+`DECaLS`: 根据此文章[论文](http://dx.doi.org/10.1093/mnras/stab2093)中的数据，对形状大小`3×256×256`筛选，而后用阈值进行选择。
 
 用以下命令产生训练需要的`train.txt`
 ```
@@ -75,10 +75,10 @@ python Galaxy_VAE_n.py
 - `outline/outline.ipynb`: 同一个星系通过不同巡天得到的星系图像，通过VAE得到的隐变量之间的距离，排序可视化。
 
 由于不同巡天计划中观测波段、望远镜和PSF等因素影响，导致同一个星系的形态识别有差异：
-- `相似`
+* `相似`
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_like.jpg" width="800">
 
-- `不相似`
+* `不相似`
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_dislike.jpg" width="800">
 
 第二部分 ``域适应``
