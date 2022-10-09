@@ -19,8 +19,7 @@ Galaxy_VAE
   目的：DECaLS训练出来的模型用于提取其他巡天的形态特征，域适应训练对其他巡天进行降噪，使得第一部分训练的网络可以更好应用到其他巡天来提取形态特征。
 
 
-环境配置要求
-============
+## 环境配置要求
 -  numpy
 -  pandas
 -  torch>=1.8.1
@@ -35,17 +34,16 @@ Galaxy_VAE
 -  datetime
 -  random
 
-第一部分 ``VAE``
-========================
-# 数据
+# 第一部分 ``VAE``
+## 数据
 `DECaLS`: 根据此文章[论文](http://dx.doi.org/10.1093/mnras/stab2093)中的数据，对形状大小`3×256×256`筛选，而后用阈值进行选择。
 
 用以下命令产生训练需要的`train.txt`
 ```
 python make_datatxt.py
 ```
-# 运行
-## 训练
+## 运行
+### 训练
 用以下命令直接训练`train.txt`中的星系图像。
 ```
 python Galaxy_VAE_n.py
@@ -57,7 +55,7 @@ python Galaxy_VAE_n.py
 您可以通过单击访问它
 [Github-models](https://github.com/xuquanfeng/Galaxy_VAE/blob/master/VAE_model/models.py)
 .
-## 分析隐变量
+### 分析隐变量
 - `analysis/decals_1.py`: 星表中筛选合适阈值的星系图像。
 - `analysis/decals_2_1.py`: 筛选的星系和DECaLSE中的星系图像进行配准，保存索引。
 - `analysis/decals_2_2.py`: 根据上面的索引提出对应隐变量特征。
@@ -67,7 +65,7 @@ python Galaxy_VAE_n.py
 - `analysis/decals_4.py`: 筛选离群点。
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/lqd.jpg" width="600">
 
-## 分析离群点
+### 分析离群点
 
 - `outline/visualization.ipynb`: 通过重构不同隐变量维度，查看模型效果。
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/xiang.jpg" width="600">
@@ -81,8 +79,7 @@ python Galaxy_VAE_n.py
 * `不相似`
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_dislike.jpg" width="800">
 
-第二部分 ``域适应``
-====================
+# 第二部分 ``域适应``
 
 旨在克服上述在不同巡天计划中噪声影响的问题。
 代码内容具体在`tansfer`文件夹中。
