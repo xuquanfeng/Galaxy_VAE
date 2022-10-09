@@ -21,8 +21,7 @@ The aim of this work is the unsupervised extraction of galaxy image morphologica
   Goal: The model trained by DECaLS is used to extract morphological features from other surveys, and the domain adaptation training performs denoising on other surveys, so that the network trained in the first part can be better applied to other surveys to extract morphological features.
 
 
-Requirements
-============
+## Requirements
 -  numpy
 -  pandas
 -  torch>=1.8.1
@@ -37,17 +36,16 @@ Requirements
 -  datetime
 -  random
 
-Part I ``VAE``
-========================
-# Datasets
-`DECaLS`: Based on the data in this article [(paper)](http://dx.doi.org/10.1093/mnras/stab2093), the shape size `3×256×256` was filtered, while the selection was made with a threshold value afterwards.
+# Part I ``VAE``
+## Datasets
+`DECaLS`: Based on the data in this article [(paper)](http://dx.doi.org/10.1093/mnras/stab2093), the shape size `3?256?256` was filtered, while the selection was made with a threshold value afterwards.
 
 Generate the `train.txt` needed for training with the following command:
 ```
 python make_datatxt.py
 ```
-# Usage
-## Training
+## Usage
+### Training
 Train the galaxy images in `train.txt` directly with the following command.
 ```
 python Galaxy_VAE_n.py
@@ -58,7 +56,7 @@ The model structure is as follows:
 You can access it by clicking on 
 [Github-models](https://github.com/xuquanfeng/Galaxy_VAE/blob/master/VAE_model/models.py)
 .
-## Analysis of latent variables
+### Analysis of latent variables
 - `analysis/decals_1.py`: The catalog filters images of galaxies with appropriate thresholds.
 - `analysis/decals_2_1.py`: The filtered galaxies are aligned with the galaxy images in DECaLSE and the index is saved.
 - `analysis/decals_2_2.py`: The corresponding latent variable features are proposed according to the above index.
@@ -68,7 +66,7 @@ You can access it by clicking on
 - `analysis/decals_4.py`: Screening outlier points.
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/lqd.jpg" width="600">
 
-## Analysis of outliers
+### Analysis of outliers
 
 - `outliers/visualization.ipynb`: The model effects are viewed by reconstructing different hidden variable dimensions.
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/xiang.jpg" width="600">
@@ -82,8 +80,7 @@ The morphological identification of the same galaxy varies due to the effects of
 - `dislike`
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_dislike.jpg" width="800">
 
-Part II ``Domain Adaptation``
-====================
+# Part II ``Domain Adaptation``
 
 The aim is to overcome the above problem of noise effects in different sky surveys.
 The code content is specified in the `tansfer` folder.
