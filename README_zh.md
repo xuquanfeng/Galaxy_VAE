@@ -85,4 +85,4 @@ python Galaxy_VAE_n.py
 代码内容具体在`tansfer`文件夹中。
 - `tansfer/dataset_resu.ipynb`: 两个不同巡天的星表进行配准筛选，将配准图像制作成数据集。
 - `tansfer/no_tf.ipynb`: 得到未迁移的训练结果。
-- `tansfer/ts_resu2.ipynb`: 得到迁移的训练结果。
+- `tansfer/transfer_learning.ipynb`: 得到迁移的训练结果。
