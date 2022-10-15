@@ -75,10 +75,10 @@ You can access it by clicking on
 
 The morphological identification of the same galaxy varies due to the effects of observing bands, telescopes and PSFs in different sky survey programs.
 - `like`
-<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_like.jpg" width="800">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/transfer/in_out_like.jpg" width="800">
 
 - `dislike`
-<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_dislike.jpg" width="800">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/transfer/in_out_dislike.jpg" width="800">
 
 # Part II ``Domain Adaptation``
 
