@@ -86,4 +86,4 @@ The aim is to overcome the above problem of noise effects in different sky surve
 The code content is specified in the `tansfer` folder.
 - `tansfer/dataset_resu.ipynb`: The catalogs of two different surveys were aligned and filtered to produce a dataset of aligned images.
 - `tansfer/no_tf.ipynb`: The un-transfer training results are obtained.
-- `tansfer/ts_resu2.ipynb`: The transfer training results are obtained.
+- `tansfer/transfer_learning.ipynb`: The transfer training results are obtained.
