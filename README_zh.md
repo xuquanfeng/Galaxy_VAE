@@ -74,10 +74,10 @@ python Galaxy_VAE_n.py
 
 由于不同巡天计划中观测波段、望远镜和PSF等因素影响，导致同一个星系的形态识别有差异：
 * `相似`
-<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_like.jpg" width="800">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/transfer/in_out_like.jpg" width="800">
 
 * `不相似`
-<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/in_out_dislike.jpg" width="800">
+<img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/transfer/in_out_dislike.jpg" width="800">
 
 # 第二部分 ``域适应``
 
