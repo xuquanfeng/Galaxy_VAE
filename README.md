@@ -38,7 +38,7 @@ The aim of this work is the unsupervised extraction of galaxy image morphologica
 
 # Part I ``VAE``
 ## Datasets
-`DECaLS`: Based on the data in this article [(paper)](http://dx.doi.org/10.1093/mnras/stab2093), the shape size `3?256?256` was filtered, while the selection was made with a threshold value afterwards.
+`DECaLS`: Based on the data in this article [(paper)](http://dx.doi.org/10.1093/mnras/stab2093), the shape size `3×256×256` was filtered, while the selection was made with a threshold value afterwards.
 
 Generate the `train.txt` needed for training with the following command:
 ```
