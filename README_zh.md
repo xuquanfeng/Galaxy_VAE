@@ -56,13 +56,13 @@ python Galaxy_VAE_n.py
 [Github-models](https://github.com/xuquanfeng/Galaxy_VAE/blob/master/VAE_model/models.py)
 .
 ### 分析隐变量
-- `analysis/decals_1.py`: 星表中筛选合适阈值的星系图像。
-- `analysis/decals_2_1.py`: 筛选的星系和DECaLSE中的星系图像进行配准，保存索引。
-- `analysis/decals_2_2.py`: 根据上面的索引提出对应隐变量特征。
-- `analysis/decals_3.py`: 降维可视化对应类别的隐变量特征。
+- `analysis/decals_select.py`: 星表中筛选合适阈值的星系图像。
+- `analysis/decals_match.py`: 筛选的星系和DECaLSE中的星系图像进行配准，保存索引。
+- `analysis/decals_take.py`: 根据上面的索引提出对应隐变量特征。
+- `analysis/decals_visualization.py`: 降维可视化对应类别的隐变量特征。
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/all.jpg" width="600">
 
-- `analysis/decals_4.py`: 筛选离群点。
+- `analysis/decals_outliner.py`: 筛选离群点。
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/lqd.jpg" width="600">
 
 ### 分析离群点
@@ -83,6 +83,6 @@ python Galaxy_VAE_n.py
 
 旨在克服上述在不同巡天计划中噪声影响的问题。
 代码内容具体在`tansfer`文件夹中。
-- `tansfer/dataset_resu.ipynb`: 两个不同巡天的星表进行配准筛选，将配准图像制作成数据集。
+- `tansfer/dataset_result.ipynb`: 两个不同巡天的星表进行配准筛选，将配准图像制作成数据集。
 - `tansfer/no_tf.ipynb`: 得到未迁移的训练结果。
 - `tansfer/transfer_learning.ipynb`: 得到迁移的训练结果。
