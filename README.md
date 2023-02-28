@@ -57,13 +57,13 @@ You can access it by clicking on
 [Github-models](https://github.com/xuquanfeng/Galaxy_VAE/blob/master/VAE_model/models.py)
 .
 ### Analysis of latent variables
-- `analysis/decals_1.py`: The catalog filters images of galaxies with appropriate thresholds.
-- `analysis/decals_2_1.py`: The filtered galaxies are aligned with the galaxy images in DECaLSE and the index is saved.
-- `analysis/decals_2_2.py`: The corresponding latent variable features are proposed according to the above index.
-- `analysis/decals_3.py`: Reduced dimensional visualization of the latent variable features of the corresponding category.
+- `analysis/decals_select.py`: The catalog filters images of galaxies with appropriate thresholds.
+- `analysis/decals_match.py`: The filtered galaxies are aligned with the galaxy images in DECaLSE and the index is saved.
+- `analysis/decals_take.py`: The corresponding latent variable features are proposed according to the above index.
+- `analysis/decals_visualization.py`: Reduced dimensional visualization of the latent variable features of the corresponding category.
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/all.jpg" width="600">
 
-- `analysis/decals_4.py`: Screening outlier points.
+- `analysis/decals_outliner.py`: Screening outlier points.
 <img src="https://github.com/xuquanfeng/Galaxy_VAE/blob/master/outline/lqd.jpg" width="600">
 
 ### Analysis of outliers
