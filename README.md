@@ -86,4 +86,6 @@ The aim is to overcome the above problem of noise effects in different sky surve
 The code content is specified in the `tansfer` folder.
 - `tansfer/dataset_result.ipynb`: The catalogs of two different surveys were aligned and filtered to produce a dataset of aligned images.
 - `tansfer/no_tf.ipynb`: The un-transfer training results are obtained.
-- `tansfer/transfer_learning.ipynb`: The transfer training results are obtained.
+- `tansfer/transfer_learn.ipynb`: The transfer training results are obtained.
+- `tansfer/select_overlap.py`: Obtain labels for overlapping sky areas through thresholds.
+- `tansfer/RF_class_accuracy.ipynb`: Calculate the accuracy of each feature before and after domain adaption under different sky survey.
