@@ -89,3 +89,15 @@ The code content is specified in the `tansfer` folder.
 - `tansfer/transfer_learn.ipynb`: The transfer training results are obtained.
 - `tansfer/select_overlap.py`: Obtain labels for overlapping sky areas through thresholds.
 - `tansfer/RF_class_accuracy.ipynb`: Calculate the accuracy of each feature before and after domain adaption under different sky survey.
+
+The following table shows the accuracy of each feature before and after the VAE domain adaptation under different sky survey:
+
+| Question        | Num. of<br/>types | Total<br/>Count | Before DA<br/>DECaLS    | Before DA<br/>BASS+MzLS | After DA<br/>DECaLS      | After DA<br/>BASS+MzLS         |
+|-----------------|---------|-------|---------------|-----------|---------------|-----------------|
+| How round       | 3       | 625   | 76.59\%       | 74.47 \%  | **82.45 \%**  | 77.66 \%        |
+| Edge-on         | 2       | 1024  | 88.60 \%      | 87.62 \%  | **90.23 \%**  | 89.25 \%        |
+| Bar             | 2       | 503   | **96.69 \%**  | 92.72 \%  | 96.03 \%      | 94.70 \%        |
+| Have Arm        | 2       | 784   | 83.40 \%      | 80.43 \%  | 82.55 \%      | **84.68 \%**    |
+| Arm Tightness   | 3       | 225   | 61.76 \%      | 66.18 \%  | 67.65 \%      | **69.12 \%**    |
+| Bulge Size      | 3       | 285   | 73.26 \%      | 70.93 \%  | **76.74 \%**  | 74.42 \%        |
+| Merger          | 2       | 1135  | 97.95\%       | 97.65 \%  | 97.95 \%      | **98.53 \%**    |
