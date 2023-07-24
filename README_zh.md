@@ -87,4 +87,4 @@ python Galaxy_VAE_n.py
 - `tansfer/no_tf.ipynb`: 得到未迁移的训练结果。
 - `tansfer/transfer_learn.ipynb`: 得到迁移的训练结果。
 - `tansfer/select_overlap.py`: 通过阈值选出重叠天区的标签。
-- `tansfer/RF_class_accuracy.ipynb`: 计算不同标签下域迁移前后的精度。
+- `tansfer/RF_class_accuracy.ipynb`: 计算不同巡天计划下域迁移前后各个特征的精度。
