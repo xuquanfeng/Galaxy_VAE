@@ -100,3 +100,21 @@ python Galaxy_VAE_n.py
 | Arm Tightness | 3   | 225 | 61.76 \%      | 66.18 \%  | 67.65 \%      | **69.12 \%**    |
 | Bulge Size   | 3   | 285 | 73.26 \%      | 70.93 \%  | **76.74 \%**  | 74.42 \%        |
 | Merger       | 2   | 1135 | 97.95\%       | 97.65 \%  | 97.95 \%      | **98.53 \%**    |
+
+## 引用
+
+```
+@article{10.1093/mnras/stad3181,
+    author = {Xu, Quanfeng and Shen, Shiyin and de Souza, Rafael S and Chen, Mi and Ye, Renhao and She, Yumei and Chen, Zhu and Ishida, Emille E O and Krone-Martins, Alberto and Durgesh, Rupesh},
+    title = "{From images to features: unbiased morphology classification via variational auto-encoders and domain adaptation}",
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {526},
+    number = {4},
+    pages = {6391-6400},
+    year = {2023},
+    month = {10},
+    issn = {0035-8711},
+    doi = {10.1093/mnras/stad3181},
+    url = {https://doi.org/10.1093/mnras/stad3181},
+}
+```
