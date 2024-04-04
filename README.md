@@ -102,7 +102,7 @@ The following table shows the accuracy of each feature before and after the VAE 
 | Bulge Size      | 3       | 285   | 73.26 \%      | 70.93 \%  | **76.74 \%**  | 74.42 \%        |
 | Merger          | 2       | 1135  | 97.95\%       | 97.65 \%  | 97.95 \%      | **98.53 \%**    |
 
-## Citation
+# Citation
 
 ```
 @article{10.1093/mnras/stad3181,
